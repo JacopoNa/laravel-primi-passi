@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+
+    $team = [
+        'name' => 'Inter',
+        'coach' => 'Simone Inzaghi',
+        'stadium' => 'San Siro',
+        'colors' => 'Nero e Azzurro',
+    ];
+
+    return view('home', $team);
 });

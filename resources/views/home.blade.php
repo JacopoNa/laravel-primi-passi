@@ -7,6 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <h1>TEAM</h1>
+    <h2>Nome: {{ $name }}</h3>
+    <h3>Allenatore: {{ $coach }}</h3>
+    <h3>Stadio: {{ $stadium }}</h3>
+    <h3>Colori sociali: {{ $colors }}</h3>
 </body>
 </html>
