@@ -23,4 +23,16 @@ Route::get('/', function () {
     ];
 
     return view('home', $team);
-});
+})->name('home');
+
+Route::get('/staff', function () {
+    return view('staff');
+})->name('staff');
+
+Route::get('/tickets', function () {
+    return view('tickets');
+})->name('tickets');
+
+Route::get('/info', function () {
+    return view('info');
+})->name('info');

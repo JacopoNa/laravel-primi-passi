@@ -7,7 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>TEAM</h1>
+    <header>
+        <h1>TEAM</h1>
+
+        <ul>
+            <li><a href="{{ route('staff') }}">Staff della squadra</a></li>
+            <li><a href="{{ route('tickets') }}">Biglietteria</a></li>
+            <li><a href="{{ route('info') }}">Ulteriori info</a></li>
+        </ul>
+    </header>
+    
     <h2>Nome: {{ $name }}</h3>
     <h3>Allenatore: {{ $coach }}</h3>
     <h3>Stadio: {{ $stadium }}</h3>
